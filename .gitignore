@@ -1,0 +1,35 @@
+# 编译出来的class文件，是不需要推送到git
+*.class
+
+#package file  包文件
+*.war
+*.ear
+
+# kdiff3
+*.orig
+
+#maven  maven文件
+target/
+
+# eclipse  有的eclipse文件
+.setting/
+.project
+.classpatch
+
+#idea  idea文件
+.idea/
+/idea/
+*.ipr
+*.iml
+*.iws
+
+# temp file  临时文件
+*.log
+*.cache
+*.diff
+*.patch
+*.temp
+
+# system ignore  系统文件
+.DS_Store
+Thumbs.db
